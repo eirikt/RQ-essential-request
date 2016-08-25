@@ -1,0 +1,11 @@
+# Always
+.ssh
+
+# IDE stuff
+.idea
+
+# Windows stuff
+grunt.cmd
+
+# Downloaded stuff
+node_modules

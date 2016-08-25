@@ -1,0 +1,28 @@
+{
+    "name": "rq-essentials-request",
+    "version": "0.0.9",
+    "description": "Basic/Essential add-ons for Douglas Crockford's RQ using 'request', a simplified HTTP request client.",
+    "author": "Eirik Torske <eirik.torske@gmail.com>",
+    "license": "MIT",
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eirikt/RQ-essentials-request.git"
+    },
+    "dependencies": {
+        "request": "2.x",
+        "statuses": "1.x"
+    },
+    "devDependencies": {
+        "babel-register": "6.x",
+        "chai": "3.x",
+        "eslint-config-axbit": "Axbit/eslint-config-axbit#1.0.0",
+        "grunt": "1.x",
+        "grunt-eslint": "19.x",
+        "grunt-mocha-test": "0.12.x",
+        "mocha": "3.x",
+        "proxyquire": "1.x",
+        "sinon": "1.x",
+        "time-grunt": "1.x"
+    }
+}
